@@ -22,7 +22,6 @@
           доходности портфеля
         </h1>
         <div class="range-filter">
-
           <div class="range-controls">
             <div class="range-controls__scale">
               <div class="bar"></div>
@@ -38,23 +37,22 @@
             <div class="toggle toggle-min"></div>
             <div class="toggle toggle-max"></div>
           </div>
-
         </div>
 
-        <div class="credit-type">
+        <div class="portfolio-type">
 
+          <input class=" visually-hidden" id="conservative" type="radio" name="portfolio-type" value="">
+          <label class="portfolio-type__label " for="conservative">
 
-          <label class="credit-type__label" for="conservative">
-            <input class="credit-type__input visually-hidden" id="conservative" type="radio" name="credit-type" value="">
             Консервативный
           </label>
 
-
-          <label class="credit-type__label " for="balanced"> <input class="credit-type__input visually-hidden" id="balanced" type="radio" name="credit-type" value="">Сбалансированный
+          <input class="visually-hidden " id="balanced" type="radio" name="portfolio-type" value="">
+          <label class="portfolio-type__label " for="balanced"> Сбалансированный
           </label>
 
-
-          <label class="credit-type__label" for="risky"><input class="credit-type__input visually-hidden" id="risky" type="radio" name="credit-type" value="">Рискованный
+          <input class=" visually-hidden" id="risky" type="radio" name="portfolio-type" value="">
+          <label class="portfolio-type__label" for="risky">Рискованный
           </label>
 
 
